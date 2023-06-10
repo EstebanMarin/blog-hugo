@@ -1,0 +1,64 @@
+baseURL: 'http://example.org/' 
+title: 🤔
+paginate: 5
+theme: charlolamode
+
+
+
+menu:
+    main:
+        - name: 🤔🤔🤔🤔🤔
+          url: /content/post/
+          weight: 30
+
+
+
+params:
+    author: Esteban Marin
+
+
+    defaultTheme: auto
+    disableThemeToggle: true
+    ShowShareButtons: true
+    ShowReadingTime: true
+    displayFullLangName: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    ShowToc: true
+
+    profileMode:
+        # Disable to populate home page with 'mainSections' content
+        enabled: true
+        title: I am driven by curiosity
+        description: |
+          Hello, I am Esteban Marin, from 🇨🇴🇵🇹.
+           I am functional programming Nerd. I do Scala, Haskell, Typescript. 
+        imageUrl: "/images/profile.png"
+        imageTitle: my image
+        # imageWidth: 120
+        # imageHeight: 120
+    mainSections:
+      - articles
+
+    socialIcons:
+        - name: github
+          url: "https://github.com/estebanmarin"
+        - name: linkedin
+          url: "https://www.linkedin.com/in/estebanmarincom/"
+
+    assets:
+          favicon: "/images/favicon.ico"
+          favicon16x16: "/images/favicon-16x16.png"
+          favicon32x32: "/images/favicon-32x32.png"
+          apple_touch_icon: "/images/apple-touch-icon.png"
+          safari_pinned_tab: "/images/apple-touch-icon.png"
+
+
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+enableEmoji: true
+pygmentsUseClasses: true
+
+minify:
+    disableXML: true
